@@ -16,7 +16,7 @@
 
 ## Algorithm workflow
 BrScan-MS1 is a Python-based tool designed for the automated identification and quantification of Brominated Internal Standards (BrIS) using MS1 spectra. 
-![workflow](./workflow.tif)
+![workflow](./workflow.png)
 
 
 
