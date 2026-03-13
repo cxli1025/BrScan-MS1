@@ -26,13 +26,13 @@ You can clone the `BrScan-MS1` repository via the following command line:
 git clone https://github.com/cxli914/BrScan-MS1.git
 ```
 
-**Alternatively**, just click the green <kbd>Code</kbd> button at the top right of this page and then select `Download ZIP`. Extract the zip file and rename `BrScan-MS1-main` into `BrScan-MS1`.
+**Alternatively**, just click the green <kbd>Code</kbd> button at the top right of this page and then select ,<kbd>Download ZIP</kbd>. Extract the zip file and rename `BrScan-MS1-main` into `BrScan-MS1`.
 
 ### 2. Installation
 
 #### Python Environment
 
-Ensure you have Python 3.8+ installed. You can install the required Python libraries using pip:
+Ensure you have Python 3.8+ installed. You can install the required Python libraries using:
 
 ```shell
 pip install numpy pandas pyteomics opentims_bruker_bridge opentimspy
