@@ -31,10 +31,18 @@ python BrScan_MS1.py -f ./wgl_dda_30min_20240705_10_Slot1-36_1_27757.d -l ./BrIS
 
 Results are saved in the `./results/[wgl_dda_30min_20240705_10_Slot1-36_1_27757]/` directory, containing 6 key files:
 
-BrIS_isotope[0-2]_result.csv: Detailed identification results for three isotopes (m/z, intensity, charge, etc.).
+`BrIS_isotope[0-2]_result.csv`: Detailed identification results for three isotopes (m/z, intensity, charge, etc.).
 
-BrIS_isotope0_xic.csv: Extracted Ion Chromatogram (XIC) data for the first isotope across all scans.
+`BrIS_isotope0_xic.csv`: Extracted Ion Chromatogram (XIC) data for the first isotope across all scans.
 
-BrIS_all_isotopes_xic.csv: Comparative XIC data for all isotopic peaks.
+`BrIS_all_isotopes_xic.csv`: Comparative XIC data for all isotopic peaks.
 
-BrIS_isotopes_ratios.csv: Experimental vs. theoretical intensity ratios for isotopes.
+`BrIS_isotopes_ratios.csv`: Experimental vs. theoretical intensity ratios for isotopes.
+
+### 4. Help Message
+
+Run the following command line to print parameter descriptions of **BrScan-MS1**:
+
+```shell
+python BrScan_MS1.py --help
+```
