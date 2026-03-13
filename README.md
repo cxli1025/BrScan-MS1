@@ -1,6 +1,6 @@
 <div align="left">
 
-## BrScan-MS1: an automated scanning algorithm for Brominated Internal Standards (BrIS) identification
+## BrScan-MS1: an automated scanning algorithm for Brominated Internal Standards (BrIS) identification via MS1 spectra
 
 </div>
 
@@ -16,7 +16,6 @@
 
 ### Algorithm workflow
 
-BrScan-MS1 is a Python-based tool designed for the automated identification and quantification of Brominated Internal Standards (BrIS) using MS1 spectra. 
 ![workflow](./workflow.png)
 
 ### 1. Getting Started
@@ -27,11 +26,11 @@ You can clone the `BrScan-MS1` repository via the following command line:
 git clone https://github.com/cxli914/BrScan-MS1.git
 ```
 
-Alternativle, click the green `Code` button at the top right of this page and then select `Download ZIP`. Extract the downloaded zip file and rename `BrScan-MS1-main` into `BrScan-MS1`.
+**Alternatively**, just click the green <kbd>Code</kbd> button at the top right of this page and then select `Download ZIP`. Extract the zip file and rename `BrScan-MS1-main` into `BrScan-MS1`.
 
 ### 2. Installation
 
-### Python Environment
+#### Python Environment
 
 Ensure you have Python 3.8+ installed. You can install the required Python libraries using pip:
 
@@ -39,7 +38,7 @@ Ensure you have Python 3.8+ installed. You can install the required Python libra
 pip install numpy pandas pyteomics opentims_bruker_bridge opentimspy
 ```
 
-### External Tools (For .raw files)
+#### External Tools (For .raw files)
 To process Thermo .raw files directly, **BrScan-MS1** requires the ThermoRawFileParser. Download [ThermoRawFileParser](https://github.com/CompOmics/ThermoRawFileParser). Unzip the compressed file into the `BrScan-MS1` folder and rename into `third_party`.
 
 **Structure:** `BrScan-MS1/third_party/ThermoRawFileParser.exe`
@@ -48,7 +47,7 @@ To process Thermo .raw files directly, **BrScan-MS1** requires the ThermoRawFile
 To run **BrScan-MS1**, you can download an example data named `wgl_dda_30min_20240705_10_Slot1-36_1_27757.d` from [PXD000000](https://github.com/CompOmics/ThermoRawFileParser), and extract the `.d` file into the `BrScan-MS1` folder.
 
 ### 3. Usage
-Run **BrScan-MS1** via the following command line. Use the `--profile` flag if your data is in profile mode (**BrScan-MS1** will automatically perform centroiding).
+Run **BrScan-MS1** via the following command line. Use the `--profile` flag if your data is in profile mode (BrScan-MS1 will automatically perform centroiding).
 
 ```shell
 python BrScan_MS1.py -f ./wgl_dda_30min_20240705_10_Slot1-36_1_27757.d -l ./BrIS_library.csv --ignore_im -o ./results
@@ -73,7 +72,7 @@ Results are saved in the `./results/wgl_dda_30min_20240705_10_Slot1-36_1_27757/`
 
 ### 4. Help Message
 
-Run the following command line to print parameter descriptions of **BrScan-MS1**:
+Run the following command line to print parameter descriptions of BrScan-MS1:
 
 ```shell
 python BrScan_MS1.py --help
