@@ -1,7 +1,28 @@
+<div align="left">
+
 ## BrScan-MS1: an automated scanning algorithm for Brominated Internal Standards (BrIS) identification
 
-BrScan-MS1 is a Python-based tool designed for the automated identification and quantification of Brominated Internal Standards (BrIS) using MS1 spectra. 
+</div>
 
+<p align="left">
+<a href="https://www.python.org/"><img alt="python" src="https://img.shields.io/badge/Python-3.12.11-yellow.svg"/></a>
+<a href="https://pypi.org/project/numpy/"><img alt="numpy" src="https://img.shields.io/badge/Numpy-2.3.2-teal.svg"/></a>
+<a href="https://pypi.org/project/pandas/"><img alt="pandas" src="https://img.shields.io/badge/Pandas-2.3.2-brightgreen.svg"/></a>
+<a href="https://pypi.org/project/pyteomics/"><img alt="pyteomics" src="https://img.shields.io/badge/Pyteomics-4.7.5-purple.svg"/></a>
+<a href="https://pypi.org/project/lxml/"><img alt="lxml" src="https://img.shields.io/badge/lxml-6.0.1-purple.svg"/></a>
+<a href="https://github.com/michalsta/opentims"><img alt="opentims" src="https://img.shields.io/badge/Opentims-1.0.16-red.svg"/></a>
+<a href="https://pypi.org/project/brain-isotopic-distribution/"><img alt="brainpy" src="https://img.shields.io/badge/Brainpy-1.5.19-blue.svg"/></a>
+</p>
+
+## Algorithm workflow
+BrScan-MS1 is a Python-based tool designed for the automated identification and quantification of Brominated Internal Standards (BrIS) using MS1 spectra. 
+![workflow](./workflow.tiff)
+
+
+
+```shell
+git clone git@github.com:KCLabMTU/LM-OGlcNAc-Site.git
+```
 ### 1. Prerequisites
 
 ### Python Environment
