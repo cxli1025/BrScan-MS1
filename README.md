@@ -44,7 +44,7 @@ To process Thermo .raw files directly, **BrScan-MS1** requires the ThermoRawFile
 **Structure:** `BrScan-MS1/third_party/ThermoRawFileParser.exe`
 
 ### 2. Example Data
-To run **BrScan-MS1**, you can download an example data named `wgl_dda_30min_20240705_10_Slot1-36_1_27757.d` from [PXD000000](https://github.com/CompOmics/ThermoRawFileParser), and extract the `.d` file into the `BrScan-MS1` folder.
+To run **BrScan-MS1**, you can download an example data named `wgl_dda_30min_20240705_10_Slot1-36_1_27757.d` from [PXD075593]([https://github.com/CompOmics/ThermoRawFileParser](http://proteomecentral.org/cgi/GetDataset?ID=PXD075593)) or [IPX0016110000](https://www.iprox.cn/page/project.html?id=IPX0016110000) and extract the `.d` file into the `BrScan-MS1` folder.
 
 ### 3. Usage
 Run **BrScan-MS1** via the following command line. Use the `--profile` flag if your data is in profile mode (BrScan-MS1 will automatically perform centroiding).
