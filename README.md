@@ -47,12 +47,14 @@ To process Thermo .raw files directly, **BrScan-MS1** requires the ThermoRawFile
 To run **BrScan-MS1**, you can download an example data named `wgl_dda_30min_20240705_10_Slot1-36_1_27757.d` from [PXD075593](http://proteomecentral.org/cgi/GetDataset?ID=PXD075593) or [IPX0016110000](https://www.iprox.cn/page/project.html?id=IPX0016110000) and extract the `.d` file into the `BrScan-MS1` folder.
 
 ### 3. Usage
-Run **BrScan-MS1** via the following command line. Use the `--profile` flag if your data is in profile mode (BrScan-MS1 will automatically perform centroiding).
+Run **BrScan-MS1** via the following command line. The execution time for analyzing `wgl_dda_30min_20240705_10_Slot1-36_1_27757.d` is about 2 minutes.
 
 ```shell
-python BrScan_MS1.py -f ./wgl_dda_30min_20240705_10_Slot1-36_1_27757.d -l ./BrIS_library.csv -o ./results
+python BrScan_MS1.py -f ./wgl_dda_30min_20240705_10_Slot1-36_1_27757.d -l ./BrIS_library.csv -p 10 -o ./results
 ```
 
+Use the `--profile` flag if your data is in profile mode (BrScan-MS1 will automatically perform centroiding).
+ 
 **Output Structure:**
 
 Results are saved in the `./results/wgl_dda_30min_20240705_10_Slot1-36_1_27757/` directory, containing 6 files:
