@@ -50,7 +50,7 @@ To run **BrScan-MS1**, you can download an example data named `wgl_dda_30min_202
 Run **BrScan-MS1** via the following command line. Use the `--profile` flag if your data is in profile mode (BrScan-MS1 will automatically perform centroiding).
 
 ```shell
-python BrScan_MS1.py -f ./wgl_dda_30min_20240705_10_Slot1-36_1_27757.d -l ./BrIS_library.csv --ignore_im -o ./results
+python BrScan_MS1.py -f ./wgl_dda_30min_20240705_10_Slot1-36_1_27757.d -l ./BrIS_library.csv -o ./results
 ```
 
 **Output Structure:**
