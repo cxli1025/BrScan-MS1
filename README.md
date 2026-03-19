@@ -53,7 +53,7 @@ Run **BrScan-MS1** via the following command line. The execution time for analyz
 python BrScan_MS1.py -f ./wgl_dda_30min_20240705_10_Slot1-36_1_27757.d -l ./BrIS_library.csv -p 10 -o ./results
 ```
 
-**Note: ** use the `--profile` flag if your data is in profile mode (BrScan-MS1 will automatically perform centroiding).
+**Note:** use the `--profile` flag if your data is in profile mode (BrScan-MS1 will automatically perform centroiding).
  
 **Output Structure:**
 
