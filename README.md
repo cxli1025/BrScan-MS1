@@ -1,6 +1,6 @@
 <div align="left">
 
-## BrScan-MS1: an automated scanning algorithm for Brominated Internal Standards (BrIS) identification via MS1 spectra
+## BrScan-MS1: an automated scanning algorithm for Brominated Internal Standards (BrIS) recognition via MS1 spectra
 
 </div>
 
